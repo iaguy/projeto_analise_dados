@@ -36,6 +36,6 @@ fig.update_layout(
     )
 )
 
-fig.write_html('graficos/rd_mkt_analise_conversao.html')
+fig.write_html('graficos/dinamicos/rd_mkt_analise_conversao.html')
 # Exiba o gráfico interativo
 fig.show()

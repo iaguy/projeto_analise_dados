@@ -29,7 +29,7 @@ fig.add_annotation(
 )
 
 # Salvar o gráfico em um arquivo HTML
-fig.write_html('../graficos/blip-contato.html')
+fig.write_html('../graficos/dinamicos/blip-contato.html')
 
 # Mostrar o gráfico
 fig.show()
