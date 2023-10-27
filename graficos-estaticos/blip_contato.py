@@ -38,5 +38,5 @@ plt.annotate(f'Total de Contatos: {total_contatos}', (0.1, 0.1), fontsize=12, co
              xycoords='axes fraction', textcoords='axes fraction', va='center', ha='center')
 
 
-plt.savefig('graficos/blip-contato.png')
+plt.savefig('../graficos/blip-contato.png')
 plt.show()

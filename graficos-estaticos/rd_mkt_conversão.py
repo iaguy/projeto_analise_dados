@@ -35,5 +35,5 @@ plt.ylabel('Quantidade')
 plt.legend(loc='upper left', title='Caminho dos Formularios')
 plt.grid(True)
 
-plt.savefig('graficos/rd_mkt_analise_conversao.png')
+plt.savefig('../graficos/rd_mkt_analise_conversao.png')
 plt.show()

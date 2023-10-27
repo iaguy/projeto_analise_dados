@@ -30,5 +30,5 @@ ax.yaxis.set_major_locator(MultipleLocator(5))
 handles, labels = ax.get_legend_handles_labels()
 plt.legend(handles, labels, title='Razão de Perda')
 
-plt.savefig('graficos/rd_crm_negociacoes_combined.png')
+plt.savefig('../graficos/rd_crm_negociacoes_combined.png')
 plt.show()

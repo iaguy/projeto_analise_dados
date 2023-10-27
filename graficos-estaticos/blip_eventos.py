@@ -23,5 +23,5 @@ plt.title('Nota de Atendimento')
 plt.xlabel('Valores')
 plt.ylabel('Contagem')
 
-plt.savefig('graficos/blip-eventos.png')
+plt.savefig('../graficos/blip-eventos.png')
 plt.show()
