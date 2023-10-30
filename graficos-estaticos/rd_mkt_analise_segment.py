@@ -18,9 +18,12 @@ quantidade.columns = ['Nome da Segmentação', 'Quantidade']
 
 # Criação do gráfico
 ax = quantidade.plot.bar(x='Nome da Segmentação', y='Quantidade', rot=26, figsize=(25, 10), width=0.5)
-
 plt.xlabel('Nome da Segmentação')
 plt.ylabel('Quantidade')
 plt.title('Quantidade por Segmentação')
 
+# Salva o gráfico
+plt.savefig('../graficos/rd_mkt_analise_segmentacao.png')
+
+# Mostra o gráfico
 plt.show()
